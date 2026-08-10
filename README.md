@@ -13,6 +13,23 @@ brew install ampbase-io/tap/ampbase
 That installs `ampbase`, a signed and notarized universal binary covering both
 Apple Silicon and Intel.
 
+Tapping first lets you use the short name afterwards:
+
+```sh
+brew tap ampbase-io/tap
+brew install ampbase
+```
+
+In a `Brewfile`:
+
+```ruby
+tap 'ampbase-io/tap'
+brew 'ampbase'
+```
+
+Prefer the fully-qualified `ampbase-io/tap/ampbase` in scripts and one-liners —
+it needs no prior `brew tap` and names exactly which formula to install.
+
 ## Enroll
 
 Installing the binary does not connect it to anything. Enroll it against one of
