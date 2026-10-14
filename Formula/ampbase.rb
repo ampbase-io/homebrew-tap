@@ -14,9 +14,9 @@
 class Ampbase < Formula
   desc "Universal OpAMP supervisor for telemetry, AI coding, and eBPF security agents"
   homepage "https://ampbase.io"
-  url "https://ampbase.io/releases/v0.16.1/ampbase-universal-apple-darwin.tar.gz"
-  sha256 "514651e1a5f0709e03a6fafa1a3554ec45704e2eaa15358b74b3661647beae0e"
-  version "0.16.1"
+  url "https://ampbase.io/releases/v0.17.0/ampbase-universal-apple-darwin.tar.gz"
+  sha256 "c5e5fb57fbcdf84b08d08ea0f3f3f2f01fa13c299356272b27c44a38a1ceeda8"
+  version "0.17.0"
   license "LicenseRef-Ampbase-CSA"
 
   # One universal binary, Intel and Apple Silicon. Linux installs via
